@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0.5rem;
+    box-sizing: border-box ;
+}
+
+.detail-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.detail-cont h2{
+    padding-top: .8em;
+    text-transform: uppercase;
+}
+
+.detail-cont p {
+    padding:.5em 0;
+}
+.overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;}
